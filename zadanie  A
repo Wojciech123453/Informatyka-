@@ -10,3 +10,23 @@
 # Nazwisko: Stempowski 
 # Numer albumu ZUT: 43389
 
+while True : 
+    liczba = int(input("wpisz liczbę:"))
+    if liczba == 0:
+        print("nie")
+    else:
+        if liczba == 1:
+            print("raz")
+        elif liczba == 2:
+            print("dwa razy")
+        elif liczba <= 9:
+            print("kilka razy")
+        elif liczba <= 19:
+            print("kilkanascie razy")
+        elif liczba <= 99:
+            print("kilkadziesiat razy")
+        else:
+            print("wiele wile razy")
+                       
+                                          
+
