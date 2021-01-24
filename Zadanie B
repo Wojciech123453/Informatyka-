@@ -1,3 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# Przedmiot: Informatyka
+# Kierunek studiów: Inżynieria Transportu 
+# Semestr: zimowy
+# Rok akademicki: 2020/2021
+# Data (dzień.miesiąc.rok): 20.01.2021
+# Imię: Wojciech 
+# Nazwisko: Stempowski 
+# Numer albumu ZUT: 43389
+
 import turtle
 
 trt = turtle.Turtle()
