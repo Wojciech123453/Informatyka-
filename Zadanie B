@@ -1,1 +1,24 @@
+import turtle
 
+trt = turtle.Turtle()
+
+def kwadrat(dlugosc_boku, kreskowanie = 15):
+    for i in range(4):
+        trt.forward(dlugosc_boku)
+        trt.right(90)
+
+    trt.right(45)
+    trt.goto(dlugosc_boku, -dlugosc_boku)
+    trt.left(180)
+
+    for i in range(kreskowanie):
+        trt.penup()
+        trt.goto(dlugosc_boku, -dlugosc_boku + i * dlugosc_boku / kreskowanie)
+        trt.pendown()
+        trt.goto(i * dlugosc_boku / kreskowanie, 0)
+
+    trt.pendown()
+    trt.goto(0,0)
+
+kwadrat(400, 20)
+turtle.done()
